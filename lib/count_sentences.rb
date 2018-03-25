@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-    
+
   end
 
   def question?
@@ -12,7 +12,6 @@ class String
 
   def exclamation?
     self.ends_with?('!')
-
   end
 
   def count_sentences
